@@ -7,7 +7,6 @@ end
 
 def match(array)
  array.select do |w| (@word.split("").sort) == (w.split("").sort)
-   
-   
+  
 end
 end
